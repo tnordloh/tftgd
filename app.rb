@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'bundler'
+require 'rdiscount'
 
 # Setup load paths
 Bundler.require

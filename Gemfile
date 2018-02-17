@@ -25,6 +25,7 @@ gem 'stylus-source'
 gem 'eco'
 gem 'json'
 gem 'sinatra-contrib', github: 'maccman/sinatra-contrib'
+gem 'rdiscount'
 
 group :development do
   gem 'thin'
