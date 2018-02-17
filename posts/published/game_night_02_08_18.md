@@ -12,12 +12,14 @@ The 2018 campaign of G4N started with a game of Mission Red Planet.  The main me
 
   Final scores:
 
-Luke - 38
-Garrett - 26
-Colten - 25 (takes 3rd via tie break)
-Brett - 25
-Scott - 18
-Eric - 16
+| Place | Player | Score |
+| :---: | --- | ---: |
+| 1 | Luke | 38 |
+| 2 | Garrett | 26 |
+| 3 | Colten | 25 |
+| 4 | Brett | 25 |
+| 5 | Scott | 18 |
+| 6 | Eric | 16 |
 
   My personal objective for this game was to have the most astronauts on the moon Phobos by the end of the game.  In those first 5 rounds of the game I tried to take 2 different rockets which were heading to Phobos from the launching pad.  However, my pieces ended up landing on the red planet instead.  Being that I didn’t get a single astronaut where I planned him to be I only managed to receive a single resource of one ice for one point in the first production phase.
 

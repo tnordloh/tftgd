@@ -47,3 +47,11 @@ module Blog
 end
 
 include Blog::Models
+
+# LED trying to get Markdown include
+#
+# require "rdiscount"
+#
+# get '/' do
+#  markdown :index
+# end
