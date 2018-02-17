@@ -8,18 +8,24 @@ For the last game night of the year, five knights convened for a night of auctio
 
 Scores:
 
-Nate (Grey) 94
-Luke (White) 89
-Scott (Purple) 83
-Garrett (Black) 77
-Frank (Neutral) 74
+| Place | Player | Score |
+| :---: | --- | ---: |
+| 1 | Nate (Grey) | 94 |
+| 2 | Luke (White) | 89 |
+| 3 | Scott (Purple) | 83 |
+| 4 | Garrett (Black) | 77 |
+| 5 | Frank (Neutral) | 74 |
 
   There was enough time after the game to discuss it, enjoy some dessert, and then get in a couple rounds of The Great Dalmuti.  Nate finished his sweep of the night.
 
-Nate: 4
-Luke: 2
-Frank: 0
-Scott: -2
-Garrett: -4
+Scores:
+
+| Place | Player | Score |
+| :---: | --- | ---: |
+| 1 | Nate | 4 |
+| 2 | Luke | 2 |
+| 3 | Frank | 0 |
+| 4 | Scott | -2 |
+| 5 | Garrett | -4 |
 
   Thank you everyone again for attending the Game Nights.  I hope that your Holidays and New Year are filled with family and joy.  Garrett and I will be starting up Game Nights again in late January or February next year.  I will also try to post the missing recaps to get them rounded out for the year.  So watch this distribution list for all that, until next time my all your dice come up sixes.
