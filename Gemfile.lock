@@ -36,11 +36,20 @@ GEM
     execjs (2.0.2)
     hike (1.2.3)
     i18n (0.6.9)
+    iniparser (0.1.0)
     json (1.8.1)
     kgio (2.9.2)
+    kramdown (1.16.2)
+    logutils (0.6.1)
+    markdown (1.2.0)
+      kramdown (>= 1.5.0)
+      props (>= 1.1.2)
+      textutils (>= 0.10.0)
     memcachier (0.0.2)
     minitest (5.11.3)
     multi_json (1.9.2)
+    props (1.2.0)
+      iniparser (>= 0.1.0)
     rack (1.5.5)
     rack-protection (1.5.2)
       rack
@@ -53,6 +62,7 @@ GEM
     rake (10.2.1)
     rdiscount (2.2.0.1)
     redcarpet (3.1.1)
+    rubyzip (1.2.1)
     sinatra (1.4.4)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -68,6 +78,11 @@ GEM
       execjs
       stylus-source
     stylus-source (0.42.2)
+    textutils (1.4.0)
+      activesupport
+      logutils (>= 0.6.1)
+      props (>= 1.1.2)
+      rubyzip (>= 1.0.0)
     thin (1.6.2)
       daemons (>= 1.0.9)
       eventmachine (>= 1.0.0)
@@ -98,6 +113,7 @@ DEPENDENCIES
   erubis
   i18n
   json
+  markdown
   memcachier
   rack (~> 1.5.4)
   rack-ssl

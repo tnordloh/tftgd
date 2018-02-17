@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'bundler'
-require 'rdiscount'
+require 'markdown'
 
 # Setup load paths
 Bundler.require
@@ -54,5 +54,5 @@ include Blog::Models
 # require "rdiscount"
 #
 # get '/' do
-#  markdown :index
+#   markdown :index
 # end
