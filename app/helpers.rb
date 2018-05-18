@@ -28,7 +28,7 @@ module Blog
       params[:number].to_i > 0
     end
 
-    def paginate_next?(items, limit = 10)
+    def paginate_next?(items, limit = 1)
       items.length >= limit
     end
 

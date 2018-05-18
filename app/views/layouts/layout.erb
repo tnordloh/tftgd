@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -23,20 +22,37 @@
   <%== yield_content :head %>
 </head>
 <body>
-  <header class="header">
-    <nav class="wrap">
-      <h1 class="logo">
-        <a class="blog" href="/">blog</a>
-      </h1>
-    </nav>
-  </header>
 
-  <article class="main wrap">
-    <%== yield %>
-  </article>
+    <div class="grid-wrapper">
+      
+      <div class="grid-header">  
+        <h1>
+          <a class="blog" href="/">
+            Tales From the Board Gaming Den
+          </a>
+        </h1>
+      </div>
 
-  <footer class="footer">
-    <%== yield_content :footer %>
-  </footer>
-</body>
+      <div class="grid-left">
+        <article class="something">
+          <%== yield_content :side_bar %>
+        </article>
+      </div>
+
+      <div class="grid-right">
+
+        <article class="main wrap">
+          <%== yield %>
+        </article>
+
+      </div>
+
+      <div class="grid-footer">  
+        <h1>
+          I'm the footer!
+        </h1>
+      </div>
+    </div>
+
+  </body>
 </html>

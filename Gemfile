@@ -25,7 +25,6 @@ gem 'stylus-source'
 gem 'eco'
 gem 'json'
 gem 'sinatra-contrib', github: 'maccman/sinatra-contrib'
-gem 'rdiscount'
 gem 'markdown'
 
 group :development do

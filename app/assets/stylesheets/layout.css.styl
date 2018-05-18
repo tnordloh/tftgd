@@ -1,9 +1,51 @@
-//= require font_awesome
 //= require_self
 //= require_tree .
 
 @import './mixins'
 
+.grid-wrapper {
+  display: grid
+  grid-template-columns: 1fr 3fr
+  grid-auto-rows: minmax(100px, auto)
+  grid-gap: 1em
+}
+
+.grid-header {
+  background-color: purple
+  grid-column: span2/1
+  text-align: center
+  a {
+    color: white
+  }
+}
+
+.grid-left {
+  background-color: green
+  grid-column: 1
+}
+
+.grid-right { 
+  background-color: yellow
+  grid-column: 2
+  table {
+    border: 0
+    float: left
+    cellspacing: 0
+    align: left
+  }
+}
+
+.grid-footer {
+  background-color: blue
+  grid-column: span2/1
+}
+
+
+header {
+  text-align: center
+}
+
+/*
 *, *:before, *:after {
   box-sizing: border-box
 }
@@ -16,46 +58,17 @@ body, html {
 body {
   -webkit-font-smoothing: antialiased
   font-smoothing: antialiased
-  background: #FFF
+  background: #8595d08a
 
   color: #444
   font: 19px/1.5em "proxima-nova", "OpenSans", "HelveticaNeue", Helvetica, Arial, sans-serif
 }
 
-a {
-  text-decoration: underline
-  color: #4b525b
-}
 
 // Site specific
 
 .wrap {
   margin: 0 auto
-}
-
-header.header {
-  overflow: hidden
-  font-family: "Open Sans", sans-serif
-  font-size: 18px
-  font-weight: 600
-  user-select: none
-
-  a {
-    text-decoration: none
-  }
-
-  nav {
-    height: 40px
-    line-height: 70px
-    margin: auto
-    padding: 0 15px
-
-    h1.logo {
-      float: left
-      margin: 0
-      font-size: 22px
-    }
-  }
 }
 
 article.main {
@@ -90,7 +103,7 @@ article.main {
 
       h3.author {
         margin: 0
-        color: #6A6A6A
+        color: green
         font-weight: normal
         font-style: italic
         font-size: 15px
@@ -102,19 +115,6 @@ article.main {
         }
       }
 
-      time {
-        display: inline
-        color: #6A6A6A
-        font-weight: normal
-        font-style: italic
-        font-size: 15px
-        color: #6A6A6A
-
-        a {
-          color: #6A6A6A
-          text-decoration: none
-        }
-      }
     }
 
     .body {
@@ -258,7 +258,7 @@ article.main {
       left: -75px
       right: -75px
       height: 5px
-      background: #F6F6F6
+      background: #8e1d1d
       border-radius: 5px
     }
 
@@ -333,6 +333,7 @@ footer.footer {
   }
 
   .wrap {
-    width: 700px
+    width: 1000px
   }
 }
+*/

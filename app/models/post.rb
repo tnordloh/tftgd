@@ -14,7 +14,7 @@ module Blog
         posts.sort_by {|p| p.date || Date.current }.reverse
       end
 
-      def self.paginate(number = 0, limit = 10)
+      def self.paginate(number = 0, limit = 1)
         page = number * limit
         all[page..(page + limit)] || []
       end
@@ -57,7 +57,9 @@ module Blog
 
       def html
         @html ||= begin
-          renderer = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
+          renderer = Redcarpet::Markdown.new(
+                         Redcarpet::Render::HTML, 
+                         :tables => true)
           renderer.render(markdown)
         end
       end
