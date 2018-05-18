@@ -1,7 +1,10 @@
 <% content_for :title do %><%= @post.title %><% end %>
 <% content_for :description do %><%= @post.description %><% end %>
 
-<section class="post <%= @post.slug %>">
+I think this code is dead.
+
+<div class="post <%= @post.slug %>">
+
   <header>
     <% if @post.draft? %>
       <h3 class="draft">
@@ -31,4 +34,4 @@
   <div class="body">
     <%== @post.render %>
   </div>
-</section>
+</div>
