@@ -57,11 +57,8 @@ module Blog
 
       def html
         @html ||= begin
-          renderer = Redcarpet::Markdown.new(
-                         Redcarpet::Render::HTML, 
-                         :tables => true)
-          renderer.render(markdown)
-        end
+                    Markdown.new(markdown).to_html
+                  end
       end
 
       def title(value = nil)

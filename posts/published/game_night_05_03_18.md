@@ -2,6 +2,7 @@
 <% date '3rd May 2018' %>
 <% author 'Garrett Gradisar' %>
 
+<div class="score-chart" markdown="1">
 | Place | Player | Score |
 | :---: | --- | ---: |
 | 1 | Colten | 30 |
@@ -9,6 +10,8 @@
 | 3 | Eric | 22 |
 | 4 | Scott | 20 |
 | 5 | Garrett | 17 |
+
+</div>
 
 After a short game of "The Great Dalmuti", in which I was gloriously victorious, the real action began with a game of "Roll for the Galaxy"
 
