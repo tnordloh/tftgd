@@ -9,25 +9,13 @@ module Blog
         404
       end
 
-      get '/feed', provides: 'application/atom+xml' do
-        @posts = Post.all
-        builder :feed
-      end
-
-      get '/page/:number' do
-        number = Integer(params[:number])
-        @posts = Post.paginate(number)
-
-        erb :index
-      end
-
-      get '/:slug' do
-        @post = Post.find!(params[:slug])
+      get '/:id' do
+        @post = Post.find(params[:id])
         erb :post
       end
 
       get '/' do
-        @posts = Post.paginate
+        @posts = Post.all
         erb :index
       end
     end

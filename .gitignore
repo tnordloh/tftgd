@@ -5,3 +5,5 @@ mails
 tmp/gems.json
 keys
 .ruby-version
+.gitignore
+*.sqlite3

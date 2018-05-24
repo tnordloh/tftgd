@@ -1,27 +1,21 @@
 <% @posts.each do |post| %>
-  <div class="post <%= post.slug %>">
+  <div class="post <%= post.id %>">
     <header>
       <h2>
-        <a href="/<%= post.slug %>"><%= post.title %></a>
+        <a href="/<%= post.id %>"><%= post.title %></a>
+        <a href="/<%= post.id %>"></a>
       </h2>
-
-      <% if post.date %>
-        <time datatime="<%= post.date.to_s %>">
-          <a href="/<%= post.slug %>">
-            <%= post.date.to_s(:short_ordinal) %>
+      <% if post.date_time %>
+        <time datetime="<%= post.date_time.to_s %>">
+          <a href="/<%= post.id %>">
+            <%= post.date_time.to_s %>
           </a>
         </time>
-      <% end %>
-
-      <% if post.author %>
-        <h3 class="author">
-          by <%= post.author %>
-        </h3>
       <% end %>
     </header>
 
     <div class="body">
-      <%== post.render %>
+      <%== post.body %>
     </div>
   </div>
 <% end %>

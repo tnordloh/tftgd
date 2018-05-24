@@ -1,9 +1,8 @@
 require 'pathname'
-
 module Blog
   module Models
-    class Post < ActiveRecord::Base
-      belongs_to :author
+    class Author < ActiveRecord::Base
+      has_many :posts
     end
   end
 end
